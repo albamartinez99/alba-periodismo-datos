@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="es" class="h-100">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Prácticas">
+    <meta name="author" content="Alba Martínez">
+    <meta name="generator" content="nano">
+    <title>Memoria</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/sticky-footer-navbar/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="css/sticky-footer-navbar.css" rel="stylesheet">
+  </head>
+  <body class="d-flex flex-column h-100">
+    
+<header>
+  <!-- Fixed navbar -->
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Alba Martínez</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link" href="practica-1.html">Práctica 1</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="practica-2.html">Práctica 2</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="practica-4.html">Práctica 4</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link" href="memoria.html">Memoria</a>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<!-- Begin page content -->
+<main class="flex-shrink-0">
+  <div class="container">
+<p>MEMORIA DE LA PRÁCTICA FINAL</p>
+Para llevar a cabo la realización del trabajo final, es imprescindible contar, por una parte, con Pandoc instalado en nuestro ordenador, y por otra, con los ejemplos de Bootstrap descargados. Yo contaba con ello al haberlo realizado en las sesiones de clase. Una vez hayamos comprobado que contamos con ello, el primer paso es acceder a nuestro repositorio desde la terminal mediante el comando “cd” seguido del nombre de este. Una vez allí, creamos la carpeta “docs” mediante el comando “mkdir docs”. Tras esto, he movido los archivos que empiezan por css y js de la carpeta de ejemplos de Bootstrap a mi nueva carpeta mediante el comando “mv”. El siguiente paso será acceder al repositorio de Ponte Datos para copiar en formato “raw” su archivo “cabecera.html”. A continuación, lo introducimos en nuestra carpeta “docs” tras abrir “nano” en la terminal y copiarlo allí. Seguiremos el mismo procedimiento con los archivos “index.html” y “pie.html”. Una vez llevado a cabo todo esto, debemos actualizar nuestro repositorio de Github y ya tendríamos todos los archivos necesarios en nuestra carpeta. Lo siguiente que debemos hacer es visitar nuestro Github y, pulsando “settings”, encontramos el apartado “pages”. Una vez allí, selecioné en “source” la rama main y la carpeta “docs/”. De esta forma conseguí el link de mi página web con éxito. Volvemos a la terminal e introducimos “pandoc” seguido del nombre de nuestra primera práctica, con el objetivo de crear la primera entrada de nuestra web que nos dirigirá a la visualización de dicha práctica. Al hacer eso en la terminal, obtuve el contenido de mi práctica en lenguaje html, lo copié, volví a mi carpeta de docs a través de “cd”, a continuación, escribí “nano index.html” y pegué el texto de mi primera práctica en html debajo de “Begin Content”. Guardamos los cambios con “control o”, le ponemos el nombre correspondiente con el que queremos que aparezca, en mi caso “practica-1.html”. Procederemos de la misma forma con todas las entradas que queramos crear, cada una llevará el nombre de la práctica correspondiente. Ahora es el momento de actualizar nuestro repositorio mediante los comandos “git add” seguido del nombre de cada uno de nuestros archivos html (las prácticas que aparecerán en la web) ayudándonos de la tabulación. Después hacemos lo mismo poniendo antes de cada uno “git commit -m”. Por último ejecutamos el comando “git push origin main”. Ahora es el momento de hacer algunos cambios para que nuestra página web quede lo más correcta, estética y clara posible. Desde la terminal, abrimos el primer contenido que hemos subido y cambiamos el nombre de “Home” por “Inicio”. Para poder poner nuestro nombre, por ejemplo, cambiaremos “” por nuestro nombre. Para poder llamar adecuadamente a cada entrada, en la línea 54, cambiaremos los códigos que aparecen por los nuestros. Llevamos a cabo este proceso con las entradas de cada práctica y volvemos a actualizar nuestro Github. Finalmente, habremos logrado construir correctamente nuestra página web, en la que podrán visualizarse todas nuestras prácticas tan solo pinchando en cada una de ellas.</p> 
+<li class="”nav-item”">
+<a class=”nav-link”
+Href=”ejercicio.html”>Ejercicio 1</a>
+</li>
+<p>Llevamos a</p>
+ </div>
+</main>
+
+<footer class="footer mt-auto py-3 bg-light">
+  <div class="container">
+    <span class="text-muted">Conjunto de trabajos de la asignatura &quot;Periodismo de Datos&quot; 2021/2022 de Alba Martínez</span>
+  </div>
+</footer>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+      
+  </body>
+</html>
