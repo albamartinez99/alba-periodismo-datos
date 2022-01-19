@@ -1,5 +1,3 @@
-## EXAMEN FINAL PERIODISMO DE DATOS
-
 # 1. ¿Qué es el periodismo de datos? Aporta tus impresiones sobre el debate.
 El periodismo de datos moderno, del que bebemos actualmente, nace en 2006-2008 con una combinación de factores: abundancia de software de código abierto, HTML5 y Open Data. Al ser una disciplina nueva, también es una disciplina contenedor. Uno de los medios pioneros de este tipo de periodismo es The Guardian. En general, existen tres áreas implicadas en el periodismo de datos: El periodismo, basado principalmente en la investigación, los datos, o dicho de otra forma, registros electrónicos que han de ser tratados por ordenador, y, por último, la visualización de datos, que abarca desde la Web hasta el papel pasando por la estadística, las distintas visualizaciones o la infografía.
 
