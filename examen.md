@@ -145,7 +145,7 @@ C:/carpeta1/carpeta2/archivo1.doc
 
 # 23. Explica al menos un error/dificultad que hayas tenido y cómo lo has abordado y, si así ha sido, resuelto.
 
-Por poner un ejemplo, al hacer la última práctica me salía “command not found” 
+Por poner un ejemplo, al hacer la última práctica me salía “command not found” al intentar hacer el zip, aunque ya lo había instalado previamente mediante el comando apt-cyg. Lo primero que hice fue comprobar si había escrito bien los comandos. Al ver que sí, el siguiente paso fue desinstalarlo (sudo apt-get --purge remove zip) para luego proceder a volver a instalarlo (apt-cyg zip). Finalmente, al ir a hacer mi zip, ya no me apareció el error de "comando no encontrado" y todo salió bien.
 
 # 24. ¿Cómo ponemos el listado en formato listado de todos los archivos de un directorio?
 
