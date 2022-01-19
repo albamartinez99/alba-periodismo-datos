@@ -40,7 +40,7 @@ En primer lugar, es importante explicar qué es una URL. Sus siglas vienen de Un
 
 - https://, que indica el protocolo usado https en el dominio que sea. La separación entre protocolo y dominio se realiza con ://.
 
-- El dominio www.elpais.com, es decir, lo que va entre :// y la primera /. Se lee de derecha a izquierda en orden de importancia. .com es el TLD, Top Level Domain o dominio de primer nivel. Una entidad lo gestiona y esa u otra que revende el servicio ha alquilado theguardian.com al medio inglés. La última, www, es un subdominio de elpais.com. A efectos de la Web o de funcionamiento, daría igual que no estuviera pero es también una forma de honrar al proyecto de Tim Berners Lee WWW. Estos subdominios sirven para identificar por los humanos los servicios.
+- El dominio www.elpais.com, es decir, lo que va entre :// y la primera /. Se lee de derecha a izquierda en orden de importancia. .com es el TLD, Top Level Domain o dominio de primer nivel. Una entidad lo gestiona y esa u otra que revende el servicio ha alquilado theguardian.com al medio inglés. La última, www, es un subdominio de elpais.com. A efectos de la Web o de funcionamiento, daría igual que no estuviera pero es también una forma de honrar al proyecto de Tim Berners Lee. Estos subdominios sirven para identificar por los humanos los servicios.
 
 - La estructura de carpetas del servidor web es todo lo que hay a la derecha de la barra inclinada después de .com, es decir, /espana/comunidad-valenciana/(...). Sin embargo, cabe mencionar que aunque lo haya denominado "estructura de carpetas del servidor web", no tienen por qué corresponderse con una estructura de carpetas reales. Probablemente solo lo último, el nombre del artículo, se corresponda con una carpeta.
 
